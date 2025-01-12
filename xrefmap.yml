@@ -1,0 +1,338 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ASEUnitTest
+  name: ASEUnitTest
+  href: ASE/ASEUnitTest.html
+  commentId: N:ASEUnitTest
+  fullName: ASEUnitTest
+  nameWithType: ASEUnitTest
+- uid: ASEUnitTest.ASETests
+  name: ASETests
+  href: ASE/ASEUnitTest.ASETests.html
+  commentId: T:ASEUnitTest.ASETests
+  fullName: ASEUnitTest.ASETests
+  nameWithType: ASETests
+- uid: ASEUnitTest.ASETests.DrawToTest
+  name: DrawToTest()
+  href: ASE/ASEUnitTest.ASETests.html#ASEUnitTest_ASETests_DrawToTest
+  commentId: M:ASEUnitTest.ASETests.DrawToTest
+  fullName: ASEUnitTest.ASETests.DrawToTest()
+  nameWithType: ASETests.DrawToTest()
+- uid: ASEUnitTest.ASETests.DrawToTest*
+  name: DrawToTest
+  href: ASE/ASEUnitTest.ASETests.html#ASEUnitTest_ASETests_DrawToTest_
+  commentId: Overload:ASEUnitTest.ASETests.DrawToTest
+  isSpec: "True"
+  fullName: ASEUnitTest.ASETests.DrawToTest
+  nameWithType: ASETests.DrawToTest
+- uid: ASEUnitTest.ASETests.MoveToTest
+  name: MoveToTest()
+  href: ASE/ASEUnitTest.ASETests.html#ASEUnitTest_ASETests_MoveToTest
+  commentId: M:ASEUnitTest.ASETests.MoveToTest
+  fullName: ASEUnitTest.ASETests.MoveToTest()
+  nameWithType: ASETests.MoveToTest()
+- uid: ASEUnitTest.ASETests.MoveToTest*
+  name: MoveToTest
+  href: ASE/ASEUnitTest.ASETests.html#ASEUnitTest_ASETests_MoveToTest_
+  commentId: Overload:ASEUnitTest.ASETests.MoveToTest
+  isSpec: "True"
+  fullName: ASEUnitTest.ASETests.MoveToTest
+  nameWithType: ASETests.MoveToTest
+- uid: ASEUnitTest.ASETests.MultiLineTest
+  name: MultiLineTest()
+  href: ASE/ASEUnitTest.ASETests.html#ASEUnitTest_ASETests_MultiLineTest
+  commentId: M:ASEUnitTest.ASETests.MultiLineTest
+  fullName: ASEUnitTest.ASETests.MultiLineTest()
+  nameWithType: ASETests.MultiLineTest()
+- uid: ASEUnitTest.ASETests.MultiLineTest*
+  name: MultiLineTest
+  href: ASE/ASEUnitTest.ASETests.html#ASEUnitTest_ASETests_MultiLineTest_
+  commentId: Overload:ASEUnitTest.ASETests.MultiLineTest
+  isSpec: "True"
+  fullName: ASEUnitTest.ASETests.MultiLineTest
+  nameWithType: ASETests.MultiLineTest
+- uid: ASE_Assignment
+  name: ASE_Assignment
+  href: ASE/ASE_Assignment.html
+  commentId: N:ASE_Assignment
+  fullName: ASE_Assignment
+  nameWithType: ASE_Assignment
+- uid: ASE_Assignment.AppCanvas
+  name: AppCanvas
+  href: ASE/ASE_Assignment.AppCanvas.html
+  commentId: T:ASE_Assignment.AppCanvas
+  fullName: ASE_Assignment.AppCanvas
+  nameWithType: AppCanvas
+- uid: ASE_Assignment.AppCanvas.#ctor
+  name: AppCanvas()
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas__ctor
+  commentId: M:ASE_Assignment.AppCanvas.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.AppCanvas.AppCanvas()
+  fullName.vb: ASE_Assignment.AppCanvas.New()
+  nameWithType: AppCanvas.AppCanvas()
+  nameWithType.vb: AppCanvas.New()
+- uid: ASE_Assignment.AppCanvas.#ctor*
+  name: AppCanvas
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas__ctor_
+  commentId: Overload:ASE_Assignment.AppCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.AppCanvas.AppCanvas
+  fullName.vb: ASE_Assignment.AppCanvas.New
+  nameWithType: AppCanvas.AppCanvas
+  nameWithType.vb: AppCanvas.New
+- uid: ASE_Assignment.AppCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:ASE_Assignment.AppCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: ASE_Assignment.AppCanvas.Circle(int, bool)
+  fullName.vb: ASE_Assignment.AppCanvas.Circle(Integer, Boolean)
+  nameWithType: AppCanvas.Circle(int, bool)
+  nameWithType.vb: AppCanvas.Circle(Integer, Boolean)
+- uid: ASE_Assignment.AppCanvas.Circle*
+  name: Circle
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Circle_
+  commentId: Overload:ASE_Assignment.AppCanvas.Circle
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Circle
+  nameWithType: AppCanvas.Circle
+- uid: ASE_Assignment.AppCanvas.Clear
+  name: Clear()
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Clear
+  commentId: M:ASE_Assignment.AppCanvas.Clear
+  fullName: ASE_Assignment.AppCanvas.Clear()
+  nameWithType: AppCanvas.Clear()
+- uid: ASE_Assignment.AppCanvas.Clear*
+  name: Clear
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Clear_
+  commentId: Overload:ASE_Assignment.AppCanvas.Clear
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Clear
+  nameWithType: AppCanvas.Clear
+- uid: ASE_Assignment.AppCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.AppCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: ASE_Assignment.AppCanvas.DrawTo(int, int)
+  fullName.vb: ASE_Assignment.AppCanvas.DrawTo(Integer, Integer)
+  nameWithType: AppCanvas.DrawTo(int, int)
+  nameWithType.vb: AppCanvas.DrawTo(Integer, Integer)
+- uid: ASE_Assignment.AppCanvas.DrawTo*
+  name: DrawTo
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_DrawTo_
+  commentId: Overload:ASE_Assignment.AppCanvas.DrawTo
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.DrawTo
+  nameWithType: AppCanvas.DrawTo
+- uid: ASE_Assignment.AppCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.AppCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: ASE_Assignment.AppCanvas.MoveTo(int, int)
+  fullName.vb: ASE_Assignment.AppCanvas.MoveTo(Integer, Integer)
+  nameWithType: AppCanvas.MoveTo(int, int)
+  nameWithType.vb: AppCanvas.MoveTo(Integer, Integer)
+- uid: ASE_Assignment.AppCanvas.MoveTo*
+  name: MoveTo
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_MoveTo_
+  commentId: Overload:ASE_Assignment.AppCanvas.MoveTo
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.MoveTo
+  nameWithType: AppCanvas.MoveTo
+- uid: ASE_Assignment.AppCanvas.Pen
+  name: Pen
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Pen
+  commentId: F:ASE_Assignment.AppCanvas.Pen
+  fullName: ASE_Assignment.AppCanvas.Pen
+  nameWithType: AppCanvas.Pen
+- uid: ASE_Assignment.AppCanvas.PenColour
+  name: PenColour
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_PenColour
+  commentId: P:ASE_Assignment.AppCanvas.PenColour
+  fullName: ASE_Assignment.AppCanvas.PenColour
+  nameWithType: AppCanvas.PenColour
+- uid: ASE_Assignment.AppCanvas.PenColour*
+  name: PenColour
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_PenColour_
+  commentId: Overload:ASE_Assignment.AppCanvas.PenColour
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.PenColour
+  nameWithType: AppCanvas.PenColour
+- uid: ASE_Assignment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:ASE_Assignment.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: ASE_Assignment.AppCanvas.Rect(int, int, bool)
+  fullName.vb: ASE_Assignment.AppCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: AppCanvas.Rect(int, int, bool)
+  nameWithType.vb: AppCanvas.Rect(Integer, Integer, Boolean)
+- uid: ASE_Assignment.AppCanvas.Rect*
+  name: Rect
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Rect_
+  commentId: Overload:ASE_Assignment.AppCanvas.Rect
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Rect
+  nameWithType: AppCanvas.Rect
+- uid: ASE_Assignment.AppCanvas.Reset
+  name: Reset()
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Reset
+  commentId: M:ASE_Assignment.AppCanvas.Reset
+  fullName: ASE_Assignment.AppCanvas.Reset()
+  nameWithType: AppCanvas.Reset()
+- uid: ASE_Assignment.AppCanvas.Reset*
+  name: Reset
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Reset_
+  commentId: Overload:ASE_Assignment.AppCanvas.Reset
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Reset
+  nameWithType: AppCanvas.Reset
+- uid: ASE_Assignment.AppCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Set_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.AppCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: ASE_Assignment.AppCanvas.Set(int, int)
+  fullName.vb: ASE_Assignment.AppCanvas.Set(Integer, Integer)
+  nameWithType: AppCanvas.Set(int, int)
+  nameWithType.vb: AppCanvas.Set(Integer, Integer)
+- uid: ASE_Assignment.AppCanvas.Set*
+  name: Set
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Set_
+  commentId: Overload:ASE_Assignment.AppCanvas.Set
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Set
+  nameWithType: AppCanvas.Set
+- uid: ASE_Assignment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: ASE_Assignment.AppCanvas.SetColour(int, int, int)
+  fullName.vb: ASE_Assignment.AppCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: AppCanvas.SetColour(int, int, int)
+  nameWithType.vb: AppCanvas.SetColour(Integer, Integer, Integer)
+- uid: ASE_Assignment.AppCanvas.SetColour*
+  name: SetColour
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_SetColour_
+  commentId: Overload:ASE_Assignment.AppCanvas.SetColour
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.SetColour
+  nameWithType: AppCanvas.SetColour
+- uid: ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:ASE_Assignment.AppCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: ASE_Assignment.AppCanvas.Tri(int, int)
+  fullName.vb: ASE_Assignment.AppCanvas.Tri(Integer, Integer)
+  nameWithType: AppCanvas.Tri(int, int)
+  nameWithType.vb: AppCanvas.Tri(Integer, Integer)
+- uid: ASE_Assignment.AppCanvas.Tri*
+  name: Tri
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Tri_
+  commentId: Overload:ASE_Assignment.AppCanvas.Tri
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Tri
+  nameWithType: AppCanvas.Tri
+- uid: ASE_Assignment.AppCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_WriteText_System_String_
+  commentId: M:ASE_Assignment.AppCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: ASE_Assignment.AppCanvas.WriteText(string)
+  fullName.vb: ASE_Assignment.AppCanvas.WriteText(String)
+  nameWithType: AppCanvas.WriteText(string)
+  nameWithType.vb: AppCanvas.WriteText(String)
+- uid: ASE_Assignment.AppCanvas.WriteText*
+  name: WriteText
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_WriteText_
+  commentId: Overload:ASE_Assignment.AppCanvas.WriteText
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.WriteText
+  nameWithType: AppCanvas.WriteText
+- uid: ASE_Assignment.AppCanvas.Xpos
+  name: Xpos
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Xpos
+  commentId: P:ASE_Assignment.AppCanvas.Xpos
+  fullName: ASE_Assignment.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: ASE_Assignment.AppCanvas.Xpos*
+  name: Xpos
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Xpos_
+  commentId: Overload:ASE_Assignment.AppCanvas.Xpos
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Xpos
+  nameWithType: AppCanvas.Xpos
+- uid: ASE_Assignment.AppCanvas.Ypos
+  name: Ypos
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Ypos
+  commentId: P:ASE_Assignment.AppCanvas.Ypos
+  fullName: ASE_Assignment.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: ASE_Assignment.AppCanvas.Ypos*
+  name: Ypos
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_Ypos_
+  commentId: Overload:ASE_Assignment.AppCanvas.Ypos
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.Ypos
+  nameWithType: AppCanvas.Ypos
+- uid: ASE_Assignment.AppCanvas.getBitmap
+  name: getBitmap()
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_getBitmap
+  commentId: M:ASE_Assignment.AppCanvas.getBitmap
+  fullName: ASE_Assignment.AppCanvas.getBitmap()
+  nameWithType: AppCanvas.getBitmap()
+- uid: ASE_Assignment.AppCanvas.getBitmap*
+  name: getBitmap
+  href: ASE/ASE_Assignment.AppCanvas.html#ASE_Assignment_AppCanvas_getBitmap_
+  commentId: Overload:ASE_Assignment.AppCanvas.getBitmap
+  isSpec: "True"
+  fullName: ASE_Assignment.AppCanvas.getBitmap
+  nameWithType: AppCanvas.getBitmap
+- uid: ASE_Assignment.BOOSEInterpreterUI
+  name: BOOSEInterpreterUI
+  href: ASE/ASE_Assignment.BOOSEInterpreterUI.html
+  commentId: T:ASE_Assignment.BOOSEInterpreterUI
+  fullName: ASE_Assignment.BOOSEInterpreterUI
+  nameWithType: BOOSEInterpreterUI
+- uid: ASE_Assignment.BOOSEInterpreterUI.#ctor
+  name: BOOSEInterpreterUI()
+  href: ASE/ASE_Assignment.BOOSEInterpreterUI.html#ASE_Assignment_BOOSEInterpreterUI__ctor
+  commentId: M:ASE_Assignment.BOOSEInterpreterUI.#ctor
+  name.vb: New()
+  fullName: ASE_Assignment.BOOSEInterpreterUI.BOOSEInterpreterUI()
+  fullName.vb: ASE_Assignment.BOOSEInterpreterUI.New()
+  nameWithType: BOOSEInterpreterUI.BOOSEInterpreterUI()
+  nameWithType.vb: BOOSEInterpreterUI.New()
+- uid: ASE_Assignment.BOOSEInterpreterUI.#ctor*
+  name: BOOSEInterpreterUI
+  href: ASE/ASE_Assignment.BOOSEInterpreterUI.html#ASE_Assignment_BOOSEInterpreterUI__ctor_
+  commentId: Overload:ASE_Assignment.BOOSEInterpreterUI.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_Assignment.BOOSEInterpreterUI.BOOSEInterpreterUI
+  fullName.vb: ASE_Assignment.BOOSEInterpreterUI.New
+  nameWithType: BOOSEInterpreterUI.BOOSEInterpreterUI
+  nameWithType.vb: BOOSEInterpreterUI.New
+- uid: ASE_Assignment.BOOSEInterpreterUI.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: ASE/ASE_Assignment.BOOSEInterpreterUI.html#ASE_Assignment_BOOSEInterpreterUI_Dispose_System_Boolean_
+  commentId: M:ASE_Assignment.BOOSEInterpreterUI.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: ASE_Assignment.BOOSEInterpreterUI.Dispose(bool)
+  fullName.vb: ASE_Assignment.BOOSEInterpreterUI.Dispose(Boolean)
+  nameWithType: BOOSEInterpreterUI.Dispose(bool)
+  nameWithType.vb: BOOSEInterpreterUI.Dispose(Boolean)
+- uid: ASE_Assignment.BOOSEInterpreterUI.Dispose*
+  name: Dispose
+  href: ASE/ASE_Assignment.BOOSEInterpreterUI.html#ASE_Assignment_BOOSEInterpreterUI_Dispose_
+  commentId: Overload:ASE_Assignment.BOOSEInterpreterUI.Dispose
+  isSpec: "True"
+  fullName: ASE_Assignment.BOOSEInterpreterUI.Dispose
+  nameWithType: BOOSEInterpreterUI.Dispose
