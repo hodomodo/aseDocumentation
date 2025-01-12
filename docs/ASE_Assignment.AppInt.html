@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ASETests | mysite </title>
+      <title>Class AppInt | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ASETests | mysite ">
+      <meta name="title" content="Class AppInt | mysite ">
       
-      <meta name="description" content="Contains unit tests for the AppCanvas class.">
+      <meta name="description" content="Represents an integer command with application-specific behavior.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/new/main/apiSpec/new?filename=ASEUnitTest_ASETests.md&amp;value=---%0Auid%3A%20ASEUnitTest.ASETests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/new/main/apiSpec/new?filename=ASE_Assignment_AppInt.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppInt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,26 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ASEUnitTest.ASETests">
+        <article data-uid="ASE_Assignment.AppInt">
 
 
 
-  <h1 id="ASEUnitTest_ASETests" data-uid="ASEUnitTest.ASETests" class="text-break">
-Class ASETests  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ASE_Assignment_AppInt" data-uid="ASE_Assignment.AppInt" class="text-break">
+Class AppInt  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppInt.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="../ASE/ASEUnitTest.html">ASEUnitTest</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>ASEUnitTest.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="../ASE/ASE_Assignment.html">ASE_Assignment</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ASE Assignment.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Contains unit tests for the AppCanvas class.</p>
+  <div class="markdown summary"><p>Represents an integer command with application-specific behavior.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestClass]
-public class ASETests</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppInt : Int, ICommand</code></pre>
   </div>
 
 
@@ -113,15 +112,93 @@ public class ASETests</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ASETests</span></div>
+      <div><span class="xref">Command</span></div>
+      <div><span class="xref">Evaluation</span></div>
+      <div><span class="xref">Int</span></div>
+      <div><span class="xref">AppInt</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICommand</span></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <span class="xref">Int.Compile()</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
+    </div>
+    <div>
+      <span class="xref">Command.program</span>
+    </div>
+    <div>
+      <span class="xref">Command.parameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.paramsint</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
+    </div>
+    <div>
+      <span class="xref">Command.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Command.Program</span>
+    </div>
+    <div>
+      <span class="xref">Command.Name</span>
+    </div>
+    <div>
+      <span class="xref">Command.ParameterList</span>
+    </div>
+    <div>
+      <span class="xref">Command.Parameters</span>
+    </div>
+    <div>
+      <span class="xref">Command.Paramsint</span>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -140,9 +217,6 @@ public class ASETests</code></pre>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
 
 
@@ -154,20 +228,19 @@ public class ASETests</code></pre>
 </h2>
 
 
-  <a id="ASEUnitTest_ASETests_DrawToTest_" data-uid="ASEUnitTest.ASETests.DrawToTest*"></a>
+  <a id="ASE_Assignment_AppInt_Execute_" data-uid="ASE_Assignment.AppInt.Execute*"></a>
 
-  <h3 id="ASEUnitTest_ASETests_DrawToTest" data-uid="ASEUnitTest.ASETests.DrawToTest">
-  DrawToTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_AppInt_Execute" data-uid="ASE_Assignment.AppInt.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppInt.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Tests the DrawTo method of the AppCanvas class.</p>
+  <div class="markdown level1 summary"><p>Executes the integer command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void DrawToTest()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
   </div>
 
 
@@ -182,48 +255,19 @@ public void DrawToTest()</code></pre>
 
 
 
-  <a id="ASEUnitTest_ASETests_MoveToTest_" data-uid="ASEUnitTest.ASETests.MoveToTest*"></a>
+  <a id="ASE_Assignment_AppInt_Restrictions_" data-uid="ASE_Assignment.AppInt.Restrictions*"></a>
 
-  <h3 id="ASEUnitTest_ASETests_MoveToTest" data-uid="ASEUnitTest.ASETests.MoveToTest">
-  MoveToTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_AppInt_Restrictions" data-uid="ASE_Assignment.AppInt.Restrictions">
+  Restrictions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppInt.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Tests the MoveTo method of the AppCanvas class.</p>
+  <div class="markdown level1 summary"><p>Specifies any restrictions for the integer command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void MoveToTest()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ASEUnitTest_ASETests_MultiLineTest_" data-uid="ASEUnitTest.ASETests.MultiLineTest*"></a>
-
-  <h3 id="ASEUnitTest_ASETests_MultiLineTest" data-uid="ASEUnitTest.ASETests.MultiLineTest">
-  MultiLineTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L55"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Tests the combination of MoveTo and DrawTo methods of the AppCanvas class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void MultiLineTest()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Restrictions()</code></pre>
   </div>
 
 
@@ -242,7 +286,7 @@ public void MultiLineTest()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppInt.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 
