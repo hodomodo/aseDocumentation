@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ASETests | mysite </title>
+      <title>Class AppWrite | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ASETests | mysite ">
+      <meta name="title" content="Class AppWrite | mysite ">
       
-      <meta name="description" content="Contains unit tests for the AppCanvas class.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/new/main/apiSpec/new?filename=ASEUnitTest_ASETests.md&amp;value=---%0Auid%3A%20ASEUnitTest.ASETests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/new/main/apiSpec/new?filename=ASE_Assignment_AppWrite.md&amp;value=---%0Auid%3A%20ASE_Assignment.AppWrite%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,26 +84,24 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="ASEUnitTest.ASETests">
+        <article data-uid="ASE_Assignment.AppWrite">
 
 
 
-  <h1 id="ASEUnitTest_ASETests" data-uid="ASEUnitTest.ASETests" class="text-break">
-Class ASETests  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h1 id="ASE_Assignment_AppWrite" data-uid="ASE_Assignment.AppWrite" class="text-break">
+Class AppWrite  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppWrite.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="../ASE/ASEUnitTest.html">ASEUnitTest</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>ASEUnitTest.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="../ASE/ASE_Assignment.html">ASE_Assignment</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ASE Assignment.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Contains unit tests for the AppCanvas class.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestClass]
-public class ASETests</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppWrite : ICommand</code></pre>
   </div>
 
 
@@ -113,10 +111,16 @@ public class ASETests</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">ASETests</span></div>
+      <div><span class="xref">AppWrite</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ICommand</span></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -154,20 +158,49 @@ public class ASETests</code></pre>
 </h2>
 
 
-  <a id="ASEUnitTest_ASETests_CircleTest_" data-uid="ASEUnitTest.ASETests.CircleTest*"></a>
+  <a id="ASE_Assignment_AppWrite_CheckParameters_" data-uid="ASE_Assignment.AppWrite.CheckParameters*"></a>
 
-  <h3 id="ASEUnitTest_ASETests_CircleTest" data-uid="ASEUnitTest.ASETests.CircleTest">
-  CircleTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_AppWrite_CheckParameters_System_String___" data-uid="ASE_Assignment.AppWrite.CheckParameters(System.String[])">
+  CheckParameters(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppWrite.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Tests the Circle method of the AppCanvas class.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void CircleTest()</code></pre>
+    <pre><code class="lang-csharp hljs">public void CheckParameters(string[] parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ASE_Assignment_AppWrite_Compile_" data-uid="ASE_Assignment.AppWrite.Compile*"></a>
+
+  <h3 id="ASE_Assignment_AppWrite_Compile" data-uid="ASE_Assignment.AppWrite.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppWrite.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Compile()</code></pre>
   </div>
 
 
@@ -182,20 +215,18 @@ public void CircleTest()</code></pre>
 
 
 
-  <a id="ASEUnitTest_ASETests_DrawToTest_" data-uid="ASEUnitTest.ASETests.DrawToTest*"></a>
+  <a id="ASE_Assignment_AppWrite_Execute_" data-uid="ASE_Assignment.AppWrite.Execute*"></a>
 
-  <h3 id="ASEUnitTest_ASETests_DrawToTest" data-uid="ASEUnitTest.ASETests.DrawToTest">
-  DrawToTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_AppWrite_Execute" data-uid="ASE_Assignment.AppWrite.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppWrite.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Tests the DrawTo method of the AppCanvas class.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void DrawToTest()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
   </div>
 
 
@@ -210,106 +241,27 @@ public void DrawToTest()</code></pre>
 
 
 
-  <a id="ASEUnitTest_ASETests_MoveToTest_" data-uid="ASEUnitTest.ASETests.MoveToTest*"></a>
+  <a id="ASE_Assignment_AppWrite_Set_" data-uid="ASE_Assignment.AppWrite.Set*"></a>
 
-  <h3 id="ASEUnitTest_ASETests_MoveToTest" data-uid="ASEUnitTest.ASETests.MoveToTest">
-  MoveToTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <h3 id="ASE_Assignment_AppWrite_Set_BOOSE_StoredProgram_System_String_" data-uid="ASE_Assignment.AppWrite.Set(BOOSE.StoredProgram,System.String)">
+  Set(StoredProgram, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppWrite.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Tests the MoveTo method of the AppCanvas class.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void MoveToTest()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Set(StoredProgram Program, string Params)</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ASEUnitTest_ASETests_MultiLineTest_" data-uid="ASEUnitTest.ASETests.MultiLineTest*"></a>
-
-  <h3 id="ASEUnitTest_ASETests_MultiLineTest" data-uid="ASEUnitTest.ASETests.MultiLineTest">
-  MultiLineTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L56"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Tests the combination of MoveTo and DrawTo methods of the AppCanvas class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void MultiLineTest()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ASEUnitTest_ASETests_RectangleTest_" data-uid="ASEUnitTest.ASETests.RectangleTest*"></a>
-
-  <h3 id="ASEUnitTest_ASETests_RectangleTest" data-uid="ASEUnitTest.ASETests.RectangleTest">
-  RectangleTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L132"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Tests the Rectangle method of the AppCanvas class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void RectangleTest()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="ASEUnitTest_ASETests_pencolourTest_" data-uid="ASEUnitTest.ASETests.pencolourTest*"></a>
-
-  <h3 id="ASEUnitTest_ASETests_pencolourTest" data-uid="ASEUnitTest.ASETests.pencolourTest">
-  pencolourTest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L183"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Tests the pen colour method of the AppCanvas class.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[TestMethod]
-public void pencolourTest()</code></pre>
-  </div>
-
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Program</code> <span class="xref">StoredProgram</span></dt>
+    <dd></dd>
+    <dt><code>Params</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -326,7 +278,7 @@ public void pencolourTest()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASEUnitTest/TestAppCanvas.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-hodomodo/blob/main/ASE Assignment/AppWrite.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 
